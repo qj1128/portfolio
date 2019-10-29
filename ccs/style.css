@@ -24,3 +24,7 @@ a:hover{
   background-color:black;
   color: white;
 }
+
+b:hover{
+  background-color:yellow;
+}
