@@ -7,14 +7,20 @@ h1 {
   color: black;
 }
 
-#p01 {
+p.class1 {
   text-align: center;
   color: black;
   font-size: 100%;
 }
 
-#p02{
+p.class2{
   text-align:center; 
   margin-bottom:40px; 
   margin-top:-10px;
+  
+}
+
+a:hover{
+  background-color:black;
+  color: white;
 }
