@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Jing Qian</title>
+    <title>Jing Qian - Technical Artist</title>
     <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <script src="p_js/jquery.min.js"></script>
@@ -46,7 +46,7 @@
     </script>
     <script type="text/javascript">
     </script>
-    <link rel="shortcut icon" href="p_image/图.png">
+    <link rel="shortcut icon" href="p_image/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="p_css/style.css" media="screen" title="no title">
     <script>
@@ -65,12 +65,23 @@
         ga('create', 'UA-90454244-1', 'auto');
         ga('send', 'pageview');
     </script>
+    
+    <style type = "text/css">
+        @font-face{
+            font-family: "kangxi";
+            src:url("fonts/kangxi.ttf") format("truetype");
+         }
+        .kxi{
+            font-family: kangxi;
+            color:#FF891F;
+        }
+    </style>
 </head>
 
 <body>
     <header class='nav-down' id='top' style="padding: 0px 14%; visibility:hidden;">
         <a href="index.html">
-            <img class='logo_img' id="logo_img" src="p_image/图.png" alt="logo of Chong Li" style=""/>
+            <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style=""/>
         </a>
         <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
@@ -79,7 +90,7 @@
             <ul>
                 <li><a href="index.html#portfolio" id="nav-p">Portfolio</a></li>
                 <li><a href="index.html#about" id="nav-a">About</a></li>
-                <!-- <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li> -->
+                <li><a href="resume/JingQian-TA-更新版.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -87,7 +98,7 @@
         <ul>
             <li><a href="index.html#portfolio">Portfolio</a></li>
             <li><a href="index.html#about">About</a></li>
-            <!-- <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li> -->
+            <li><a href="resume/JingQian-TA-更新版.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
     <div class="blue" id="title">
@@ -95,10 +106,7 @@
           <h1 style="text-align:center; opacity:1; font-family:'Monoton'; line-height:180%;">
             Hello, I am Jing Qian
           </h1>
-          <h2>Technical Artist</h2>
-          <!-- <h1 style="text-align:center;">
-            I am a <b style="color:rgb(52,183,143);font-weight:400;">designer</b> at Google
-          </h1> -->
+          <h1 class=“kxi”>图</h1>
         </div>
         <h2 id="scroll">
           <img src="p_image/scroll.gif" alt="">
@@ -109,21 +117,21 @@
         <section class="clearfix" id="portfolio">
             <ul id="filters">
                 <li class="active"><span class="all">ALL</span></li>
-                <li><span class="ux" id='ux'>GRAPHICS</span></li>
-                <li><span class="make" id='make'>TOOLS</span></li>
-                <li><span class="code" id='code'>GALLERY</span></li>
+                <li><span class="graphics" id='graphics'>GRAPHICS</span></li>
+                <li><span class="tools" id='tools'>TOOLS</span></li>
+                <li><span class="gallery" id='gallery'>GALLERY</span></li>
             </ul>
         </section>
         <div class="clearfix" id='coverlist' style="padding:0 12%; margin:0 auto;">
-          <div class="col-lg-4 col-md-6 cover ux">
+          <div class="col-lg-4 col-md-6 cover graphics">
               <a href="pages/project1.html">
-                  <img src="p_image/p_cover/图.png" class="img-responsive" alt="" />
+                  <img src="p_image/p_cover/logo.png" class="img-responsive" alt="" />
                   <p class='cover_des'>
                       <b>Graphics</b><br><br>Protection from the Smog
                   </p>
               </a>
           </div>
-            <div class="col-lg-4 col-md-6 cover ux">
+            <div class="col-lg-4 col-md-6 cover graphics">
                 <a href="pages/project2.html">
                     <img src="p_image/p_cover/sss_pikachu.gif" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -131,7 +139,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover ux code">
+            <div class="col-lg-4 col-md-6 cover graphics gallery">
                 <a href="pages/project3.html">
                     <img src="p_image/p_cover/sss_pikachu.gif" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -139,15 +147,7 @@
                     </p>
                 </a>
             </div>
-            <!-- <div class="col-lg-4 col-md-6 cover ux">
-                <a href="pages/legal.html">
-                    <img src="p_image/p_cover/legal.jpg" class="img-responsive" alt="" />
-                    <p class='cover_des'>
-                        <b>ClariLegal</b><br><br>Facilitating Litigation Services
-                    </p>
-                </a>
-            </div> -->
-            <div class="col-lg-4 col-md-6 cover make ux">
+            <div class="col-lg-4 col-md-6 cover tools graphics">
                 <a href="pages/project4.html">
                     <img src="p_image/p_cover/模.png" class="img-responsive" alt="Hyperreality Museum" />
                     <p class='cover_des'>
@@ -155,7 +155,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover make">
+            <div class="col-lg-4 col-md-6 cover tools">
                 <a href="pages/project5.html">
                     <img src="p_image/p_cover/模.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -163,7 +163,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover make">
+            <div class="col-lg-4 col-md-6 cover tools">
                 <a href="pages/project5.html">
                     <img src="p_image/p_cover/模.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -171,7 +171,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover make">
+            <div class="col-lg-4 col-md-6 cover tools">
                 <a href="pages/project5.html">
                     <img src="p_image/p_cover/模.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -179,15 +179,15 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover ux">
+            <div class="col-lg-4 col-md-6 cover graphics">
                 <a href="pages/project5.html">
-                    <img src="p_image/p_cover/图.png" class="img-responsive" alt="" />
+                    <img src="p_image/p_cover/logo.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
                         <b>Graphics</b><br><br>Graphics
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 cover code">
+            <div class="col-lg-4 col-md-6 cover gallery">
                 <a href="pages/project5.html">
                     <img src="p_image/p_cover/画.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
@@ -215,8 +215,9 @@
             <div class="clearfix">
                 <p class="me" style="text-align:center; margin-bottom:40px; margin-top:-10px;"><img src="p_image/me.png" alt="picture of Chong" /></p>
                 <p style="text-align:center; line-height:190%; font-family:'Lato', sans-serif;">
-                  Technical Artist <br>
-                  wechat: qjqjqjj123<br>
+                    我是钱静 技术美术 <br>
+                    现工作于广州网易游戏-阴阳师 <br>
+                    微信: qjqjqjj123<br>
                 </p>
             </div>
             <h1 style="margin-top:30px; margin-bottom: 40px;font-size:24px;" id="icons">
