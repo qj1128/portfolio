@@ -1,7 +1,11 @@
 /* page style */
-body{
-  font-family: 'HuaWen', sans-serif;
+@font-face{
+  font-family: 'huawen';
   src:url('../fonts/HuaWenXiHei-1.ttf');
+}
+
+body{
+  font-family: 'huawen', sans-serif;
   font-weight: 300;
   align-self: center;
   margin: 0;
@@ -18,8 +22,7 @@ section{
   /*margin: 0 auto;*/
 }
 p{
-  font-family: 'HuaWen', sans-serif;
-  src:url('../fonts/HuaWenXiHei-1.ttf');
+  font-family: 'huawen', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0px 0 20px 0;
@@ -139,8 +142,7 @@ img {
 }
 
 h4{
-  font-family: "HuaWen", serif;
-  src:url('../fonts/HuaWenXiHei-1.ttf');
+  font-family:'huawen', serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 180%;
@@ -638,8 +640,7 @@ footer.end-nav .next{
   height: auto;
 }
 .page_des h1{
-  font-family: 'HuaWen', sans-serif;
-  src:url('../fonts/HuaWenXiHei-1.ttf');
+  font-family: 'huawen', sans-serif;
   font-weight: 400;
   font-size: 36px;
   float: left;
