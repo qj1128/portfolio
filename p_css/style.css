@@ -1,7 +1,7 @@
 /* page style */
 
 body{
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans SC", sans-serif,;
   font-weight: 300;
   align-self: center;
   margin: 0;
@@ -18,7 +18,7 @@ section{
   /*margin: 0 auto;*/
 }
 p{
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0px 0 20px 0;
@@ -105,7 +105,7 @@ h6::selection{
   background: rgb(225,107,140);
 }
 h1{
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-size: 48px;
   /*color: rgba(0,0,0,0.8);*/
   /*text-align: center;*/
@@ -137,7 +137,7 @@ img {
 }
 
 h4{
-  font-family:'huawen', serif;
+  font-family:'Noto Sans SCs', serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 180%;
@@ -336,14 +336,14 @@ section.page h1{
   line-height: 180%;
 }
 section.page h2{
-  font-family: "Lato",cursive;
+  font-family: "Noto Sans SC",cursive;
   font-weight: 300;
   font-size: 22px;
   margin-top: 20px;
   /*text-align: center;*/
 }
 section.page h3{
-  font-family: "Lato",cursive;
+  font-family: "Noto Sans SC",cursive;
   font-weight: 300;
   font-size: 22px;
 }
