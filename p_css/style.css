@@ -19,7 +19,7 @@ section{
 }
 p{
   font-family: "Noto Sans SC", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 16px;
   margin: 0px 0 20px 0;
   /*color: rgba(0,0,0,0.8);*/
@@ -358,6 +358,7 @@ ul.padding{
 
 p b{
   margin-bottom: 0;
+  font-weight:400;
 }
 section.page img{
   width: 100%;
@@ -720,6 +721,7 @@ table{
 }
 .cover a p.cover_des{
   color:rgba(0,0,0,0.95);
+  font-weight: 100;
   font-size: 14px;
   text-align: center;
   top: 10px;
